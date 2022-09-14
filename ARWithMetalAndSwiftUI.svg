@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="ARWithSwiftUI.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleMetalRenderingCheatSheets/ARWithSwiftUI.png"
+   inkscape:export-xdpi="145.097"
+   inkscape:export-ydpi="145.097"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:snap-bbox="false"
+     inkscape:zoom="1.1374789"
+     inkscape:cx="545.50462"
+     inkscape:cy="392.97432"
+     inkscape:window-width="2018"
+     inkscape:window-height="1412"
+     inkscape:window-x="576"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="false" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(-6,0)"
+         style="fill-rule:evenodd;fill:context-fill;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path98702" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path18845" />
+    </marker>
+    <rect
+       x="61.878026"
+       y="474.10769"
+       width="67.978677"
+       height="32.246295"
+       id="rect342188" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18848" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18842" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect34100"
+       width="92.448669"
+       height="11.135757"
+       x="100.91511"
+       y="174.59618" />
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect149412"
+       width="162.34648"
+       height="32.419113"
+       x="89.052246"
+       y="140.63583" />
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect149278"
+       width="104.28624"
+       height="25.346619"
+       x="89.052238"
+       y="112.83929" />
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect147349"
+       width="114.81273"
+       height="30.116442"
+       x="73.75592"
+       y="79.94397" />
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect145421"
+       width="150.99759"
+       height="14.162216"
+       x="57.472729"
+       y="62.920635" />
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect145127"
+       width="109.63173"
+       height="20.987989"
+       x="57.719444"
+       y="37.262287" />
+    <rect
+       style="fill:#edfef8;fill-opacity:1;stroke:none;stroke-width:0.964999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.748344"
+       id="rect6671"
+       width="114.97723"
+       height="15.806972"
+       x="42.094166"
+       y="17.936287" />
+    <rect
+       style="fill:#ffe0e0;fill-opacity:1;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.748344"
+       id="rect135548"
+       width="156.48825"
+       height="14.782278"
+       x="93.996582"
+       y="157.45937" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text342186"
+       style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect342188)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-198.72049"
+       y="-87.706146"
+       id="text5195"><tspan
+         sodipodi:role="line"
+         id="tspan5193"
+         style="stroke-width:0.264583"
+         x="-198.72049"
+         y="-87.706146" /></text>
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect6657"
+       width="8.8539505"
+       height="5.0092821"
+       x="42.629402"
+       y="18.404968" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="43.621429"
+       y="21.923248"
+       id="text7037"><tspan
+         sodipodi:role="line"
+         id="tspan7035"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="43.621429"
+         y="21.923248">App</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="47.741787"
+       y="28.053057"
+       id="text7073"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="47.741787"
+         y="28.053057"
+         id="tspan7071">Instantiate WorldManager (user defined) and inject it to the <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan107315">Environment</tspan> of the SwuitUI.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="47.741787"
+       y="32.640656"
+       id="text11989"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="47.741787"
+         y="32.640656"
+         id="tspan11987">Instantiate ContentView (SwiftUI) in var body.</tspan></text>
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect16520"
+       width="22.107029"
+       height="5.0092773"
+       x="58.431145"
+       y="63.431438" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="59.274914"
+       y="66.949722"
+       id="text16524"><tspan
+         sodipodi:role="line"
+         id="tspan16522"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="59.274914"
+         y="66.949722">ContentView</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.543533"
+       y="72.22998"
+       id="text18321"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="63.543533"
+         y="72.22998"
+         id="tspan18319">Instantiate MetalView (Custom SwuitUI View)in var body. </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.740593"
+       y="76.307846"
+       id="text20827"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="63.740593"
+         y="76.307846"
+         id="tspan20825">The user interaction between the SwuftUI components and the WorldManager is handled throught the Environment.</tspan></text>
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect22411"
+       width="18.368982"
+       height="5.0092773"
+       x="74.232895"
+       y="80.592484" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="75.204643"
+       y="84.110764"
+       id="text22415"><tspan
+         sodipodi:role="line"
+         id="tspan22413"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="75.204643"
+         y="84.110764">MetalView</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="79.612617"
+       y="89.730843"
+       id="text26345"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="79.612617"
+         y="89.730843"
+         id="tspan26343">Adapter to UIKit's <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+   id="tspan117728">MTKView.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="79.612617"
+       y="99.432365"
+       id="text27747"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="79.612617"
+         y="99.432365"
+         id="tspan27745">Adopts UIViewRepresentable protocol to interface between SwitfUI and UIKit's UIView.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="79.345284"
+       y="104.25792"
+       id="text37529"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="79.345284"
+         y="104.25792"
+         id="tspan37527">Instantiate ARCoordinator (user defined) and communicates with it.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="79.472061"
+       y="109.10072"
+       id="text42819"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="79.472061"
+         y="109.10072"
+         id="tspan42817">Optionally instantiate GestureHandler (user defined) and communicates with it.</tspan></text>
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect50583"
+       width="26.694633"
+       height="5.0092773"
+       x="89.864731"
+       y="114.06497" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="90.686676"
+       y="117.58327"
+       id="text50587"><tspan
+         sodipodi:role="line"
+         id="tspan50585"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="90.686676"
+         y="117.58327">TouchMTKView</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="95.113548"
+       y="122.69362"
+       id="text51552"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="95.113548"
+         y="122.69362"
+         id="tspan51550">Subclass of MTKView.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="95.103897"
+       y="127.32196"
+       id="text52262"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="95.103897"
+         y="127.32196"
+         id="tspan52260">Overrides 3 functions: touchesBegan(), touchesMoved(), and touchesEnded().</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="95.022598"
+       y="132.2287"
+       id="text58488"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="95.022598"
+         y="132.2287"
+         id="tspan58486">Passes the touches on to the delegate (WorldManager).</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="79.345284"
+       y="94.573654"
+       id="text66986"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="79.345284"
+         y="94.573654"
+         id="tspan66984">Instantiate TouchMTKView and its delegate (MetalView.Coordinator).</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="94.977119"
+       y="137.13608"
+       id="text70788"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="94.977119"
+         y="137.13608"
+         id="tspan70786">Invokes ARCoordinator on the frame size change and the draw() call.</tspan></text>
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect71260"
+       width="26.694633"
+       height="5.0092773"
+       x="89.864731"
+       y="141.97339" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="91.514671"
+       y="145.49167"
+       id="text71264"><tspan
+         sodipodi:role="line"
+         id="tspan71262"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="91.514671"
+         y="145.49167">ARCoordinator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="94.977119"
+       y="150.94186"
+       id="text73046"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="94.977119"
+         y="150.94186"
+         id="tspan73044">Instantiates and manages <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+   id="tspan120726">ARSession</tspan> and its<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+   id="tspan124076"> ARAnchor</tspan>s.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="107.35066"
+       y="184.62129"
+       id="text75556"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="107.35066"
+         y="184.62129"
+         id="tspan75554">Draws the photo images captured by the camera in the background.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="95.244461"
+       y="160.88162"
+       id="text76770"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="95.244461"
+         y="160.88162"
+         id="tspan76768">Arranges the geometry info (model, view, projection matrices) of the <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+   id="tspan127754">ARCamera</tspan> for WorldManager for rendering with Metal.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="95.244461"
+       y="165.85156"
+       id="text78648"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="95.244461"
+         y="165.85156"
+         id="tspan78646">Arranges the geometry info (model matrix) for the ARAnchors for WorldManager.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="94.977119"
+       y="170.82144"
+       id="text86106"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="94.977119"
+         y="170.82144"
+         id="tspan86104">Invokes WorldManager on the frame size change and the draw() call.</tspan></text>
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect87824"
+       width="25.335346"
+       height="5.1791887"
+       x="58.26123"
+       y="37.99614" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="59.205029"
+       y="41.684334"
+       id="text87828"><tspan
+         sodipodi:role="line"
+         id="tspan87826"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="59.205029"
+         y="41.684334">WorldManager</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.414963"
+       y="47.304451"
+       id="text91164"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="63.414963"
+         y="47.304451"
+         id="tspan91162">Renders objects with Metal upon reciving draw() call from the ARCoordinator.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.373619"
+       y="52.17802"
+       id="text93914"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="63.373619"
+         y="52.17802"
+         id="tspan93912">Interacts with SwiftUI through the SwiftUI's environment and@Published variables.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.414963"
+       y="57.329227"
+       id="text96052"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="63.414963"
+         y="57.329227"
+         id="tspan96050">Receives touch info from the MTKView.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 46.570477,26.919587 H 43.086261 V 39.294562 H 58.224583"
+       id="path105561"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 46.690625,31.845549 h -7.449016 v 34.96231 l 18.982973,-0.120145"
+       id="path105563"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 157.46469,27.039732 h 4.80581 v 4.925961 h -57.06907"
+       id="path108946"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 62.66996,71.253238 H 57.864145 V 83.309005 H 73.723339"
+       id="path109236"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 78.769446,93.600274 H 74.324065 V 117.66445 H 89.101949"
+       id="path109521"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 78.769446,103.21191 h -8.169889 v 42.17103 l 19.103118,-0.12015"
+       id="path109523"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect109605"
+       width="18.368982"
+       height="5.0092773"
+       x="128.7789"
+       y="113.63247" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="130.43941"
+       y="117.2709"
+       id="text109609"><tspan
+         sodipodi:role="line"
+         id="tspan109607"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="130.43941"
+         y="117.2709">MTKView</tspan></text>
+    <path
+       style="fill:#fffdfd;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
+       d="m 116.86254,116.18761 h 11.29367"
+       id="path110274" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 89.563317,115.98625 H 52.217313 V 56.34917 l 10.367691,-0.08495"
+       id="path114373"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 94.148055,136.0116 H 83.455116 v 7.32887 h 6.127414"
+       id="path136584" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+       d="M 62.790108,51.429248 H 48.492806 v 12.975703 h 9.611631"
+       id="path136789"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 93.787619,131.32593 H 42.966116 V 41.93776 h 15.138321"
+       id="path137136" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 93.929107,165.10483 H 35.777845 V 40.777436 l 22.446388,-0.174454"
+       id="path139728"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="fill:#fff1e3;fill-opacity:1;stroke-width:0.264583;stroke-miterlimit:4.1;stroke-opacity:0.748344"
+       id="rect29016"
+       width="35.649925"
+       height="5.0092773"
+       x="101.84389"
+       y="175.35222" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="102.67971"
+       y="179.1031"
+       id="text29020"><tspan
+         sodipodi:role="line"
+         id="tspan29018"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="102.67971"
+         y="179.1031">PhotoImageRenderer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="94.977119"
+       y="155.01245"
+       id="text31249"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="94.977119"
+         y="155.01245"
+         id="tspan31247">Instantiates and manages PhotoImageRenderer. </tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 93.929105,153.93978 H 87.997678 V 178.0144 H 101.72138"
+       id="path34018"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>

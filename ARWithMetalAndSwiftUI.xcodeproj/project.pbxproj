@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFC89ADE28D208370051D995 /* ARWithMetalAndSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89ADD28D208370051D995 /* ARWithMetalAndSwiftUIApp.swift */; };
+		EFC89AE028D208370051D995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89ADF28D208370051D995 /* ContentView.swift */; };
+		EFC89AE228D208390051D995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC89AE128D208390051D995 /* Assets.xcassets */; };
+		EFC89AE528D208390051D995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC89AE428D208390051D995 /* Preview Assets.xcassets */; };
+		EFC89AED28D208560051D995 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC89AEC28D208550051D995 /* ARKit.framework */; };
+		EFC89AEF28D2085F0051D995 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC89AEE28D2085E0051D995 /* MetalKit.framework */; };
+		EFC89AF828D209A50051D995 /* WorldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF028D209A50051D995 /* WorldManager.swift */; };
+		EFC89AF928D209A50051D995 /* TouchMTKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF128D209A50051D995 /* TouchMTKView.swift */; };
+		EFC89AFA28D209A50051D995 /* ARCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF228D209A50051D995 /* ARCoordinator.swift */; };
+		EFC89AFB28D209A50051D995 /* ShaderBarebone.metal in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF328D209A50051D995 /* ShaderBarebone.metal */; };
+		EFC89AFC28D209A50051D995 /* ShaderCameraImage.metal in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF428D209A50051D995 /* ShaderCameraImage.metal */; };
+		EFC89AFD28D209A50051D995 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF528D209A50051D995 /* Utils.swift */; };
+		EFC89AFE28D209A50051D995 /* PhotoImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF628D209A50051D995 /* PhotoImageRenderer.swift */; };
+		EFC89AFF28D209A50051D995 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89AF728D209A50051D995 /* MetalView.swift */; };
+		EFC89B0128D20A120051D995 /* Textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC89B0028D20A120051D995 /* Textures.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFC89ADA28D208370051D995 /* ARWithMetalAndSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARWithMetalAndSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC89ADD28D208370051D995 /* ARWithMetalAndSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWithMetalAndSwiftUIApp.swift; sourceTree = "<group>"; };
+		EFC89ADF28D208370051D995 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFC89AE128D208390051D995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC89AE428D208390051D995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFC89AEC28D208550051D995 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		EFC89AEE28D2085E0051D995 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		EFC89AF028D209A50051D995 /* WorldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldManager.swift; sourceTree = "<group>"; };
+		EFC89AF128D209A50051D995 /* TouchMTKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchMTKView.swift; sourceTree = "<group>"; };
+		EFC89AF228D209A50051D995 /* ARCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCoordinator.swift; sourceTree = "<group>"; };
+		EFC89AF328D209A50051D995 /* ShaderBarebone.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ShaderBarebone.metal; sourceTree = "<group>"; };
+		EFC89AF428D209A50051D995 /* ShaderCameraImage.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ShaderCameraImage.metal; sourceTree = "<group>"; };
+		EFC89AF528D209A50051D995 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EFC89AF628D209A50051D995 /* PhotoImageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoImageRenderer.swift; sourceTree = "<group>"; };
+		EFC89AF728D209A50051D995 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		EFC89B0028D20A120051D995 /* Textures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Textures.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC89AD728D208370051D995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC89AED28D208560051D995 /* ARKit.framework in Frameworks */,
+				EFC89AEF28D2085F0051D995 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC89AD128D208370051D995 = {
+			isa = PBXGroup;
+			children = (
+				EFC89ADC28D208370051D995 /* ARWithMetalAndSwiftUI */,
+				EFC89ADB28D208370051D995 /* Products */,
+				EFC89AEB28D208550051D995 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC89ADB28D208370051D995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC89ADA28D208370051D995 /* ARWithMetalAndSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC89ADC28D208370051D995 /* ARWithMetalAndSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				EFC89ADD28D208370051D995 /* ARWithMetalAndSwiftUIApp.swift */,
+				EFC89ADF28D208370051D995 /* ContentView.swift */,
+				EFC89AF228D209A50051D995 /* ARCoordinator.swift */,
+				EFC89AF728D209A50051D995 /* MetalView.swift */,
+				EFC89AF628D209A50051D995 /* PhotoImageRenderer.swift */,
+				EFC89AF328D209A50051D995 /* ShaderBarebone.metal */,
+				EFC89AF428D209A50051D995 /* ShaderCameraImage.metal */,
+				EFC89AF128D209A50051D995 /* TouchMTKView.swift */,
+				EFC89AF528D209A50051D995 /* Utils.swift */,
+				EFC89AF028D209A50051D995 /* WorldManager.swift */,
+				EFC89B0028D20A120051D995 /* Textures.xcassets */,
+				EFC89AE128D208390051D995 /* Assets.xcassets */,
+				EFC89AE328D208390051D995 /* Preview Content */,
+			);
+			path = ARWithMetalAndSwiftUI;
+			sourceTree = "<group>";
+		};
+		EFC89AE328D208390051D995 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFC89AE428D208390051D995 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFC89AEB28D208550051D995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC89AEE28D2085E0051D995 /* MetalKit.framework */,
+				EFC89AEC28D208550051D995 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC89AD928D208370051D995 /* ARWithMetalAndSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC89AE828D208390051D995 /* Build configuration list for PBXNativeTarget "ARWithMetalAndSwiftUI" */;
+			buildPhases = (
+				EFC89AD628D208370051D995 /* Sources */,
+				EFC89AD728D208370051D995 /* Frameworks */,
+				EFC89AD828D208370051D995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARWithMetalAndSwiftUI;
+			productName = ARWithMetalAndSwiftUI;
+			productReference = EFC89ADA28D208370051D995 /* ARWithMetalAndSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC89AD228D208370051D995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EFC89AD928D208370051D995 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = EFC89AD528D208370051D995 /* Build configuration list for PBXProject "ARWithMetalAndSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC89AD128D208370051D995;
+			productRefGroup = EFC89ADB28D208370051D995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC89AD928D208370051D995 /* ARWithMetalAndSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC89AD828D208370051D995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC89B0128D20A120051D995 /* Textures.xcassets in Resources */,
+				EFC89AE528D208390051D995 /* Preview Assets.xcassets in Resources */,
+				EFC89AE228D208390051D995 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC89AD628D208370051D995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC89AF828D209A50051D995 /* WorldManager.swift in Sources */,
+				EFC89AE028D208370051D995 /* ContentView.swift in Sources */,
+				EFC89AFF28D209A50051D995 /* MetalView.swift in Sources */,
+				EFC89AFC28D209A50051D995 /* ShaderCameraImage.metal in Sources */,
+				EFC89AFB28D209A50051D995 /* ShaderBarebone.metal in Sources */,
+				EFC89AFA28D209A50051D995 /* ARCoordinator.swift in Sources */,
+				EFC89ADE28D208370051D995 /* ARWithMetalAndSwiftUIApp.swift in Sources */,
+				EFC89AF928D209A50051D995 /* TouchMTKView.swift in Sources */,
+				EFC89AFD28D209A50051D995 /* Utils.swift in Sources */,
+				EFC89AFE28D209A50051D995 /* PhotoImageRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFC89AE628D208390051D995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFC89AE728D208390051D995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC89AE928D208390051D995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARWithMetalAndSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 64SMH392EJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This App uses the rear camera for the AR experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoyamanishi.ARWithMetalAndSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC89AEA28D208390051D995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARWithMetalAndSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 64SMH392EJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This App uses the rear camera for the AR experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoyamanishi.ARWithMetalAndSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC89AD528D208370051D995 /* Build configuration list for PBXProject "ARWithMetalAndSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC89AE628D208390051D995 /* Debug */,
+				EFC89AE728D208390051D995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC89AE828D208390051D995 /* Build configuration list for PBXNativeTarget "ARWithMetalAndSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC89AE928D208390051D995 /* Debug */,
+				EFC89AEA28D208390051D995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC89AD228D208370051D995 /* Project object */;
+}
