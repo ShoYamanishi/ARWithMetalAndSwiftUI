@@ -1,6 +1,6 @@
-# Template XCode Project for ARKit, Metal, and SwiftUI.
+# Template XCode Project for ARKit, Metal, and SwiftUI (without Storyboard).
 
-This is a barebone template XCode project that shows how to render the AR world with Metal shaders in SwiftUI.
+This is a barebone template XCode project that shows how to render the AR world with Metal shaders in SwiftUI, as opposed to Storyboard & Swift.
 It shows how SwiftUI and the rendering part with ARKit & Metal can communicate with each other by showing how to control the size of the rectangles drawn on the screen with the SwiftUI's Slider.
 
 [Demo Video](https://youtube.com/shorts/SDvFGOBvw2Y)
@@ -12,7 +12,7 @@ It shows how SwiftUI and the rendering part with ARKit & Metal can communicate w
 XCode (at least up to Version 14.0) does not provide a new project template for SwiftUI combined with Metal shaders or ARKit.
 Also, as far as I know, there is not much information publicly available about how to use metal shaders with SwiftUI and ARKit.
 
-The following thread at `developer.apple.com` seems to be the only source of informaton on how to use Metal with Swift,
+The following thread at `developer.apple.com` seems to be the only source of informaton on how to use Metal with SwiftUI,
 in which an internal developer of Apple gives a code snippet for a class *MetalView*, which wraps UIKit's MTKView for SwiftUI.
     [https://developer.apple.com/forums/thread/119112?answerId=654964022#654964022]
 (https://developer.apple.com/forums/thread/119112?answerId=654964022#654964022])
